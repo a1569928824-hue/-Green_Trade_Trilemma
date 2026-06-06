@@ -121,8 +121,6 @@ policy = load_and_fix_policy(RAW)
 # Use iso3 column (already set by load_and_fix_policy for EU entries)
 # For non-EU entries, map country names to ISO3 using panel country_to_iso
 policy["iso3_use"] = policy["iso3"]  # EU entries already have iso3
-panel_iso_map = panel[["country", "iso_code"]].drop_duplicates().set_index("country")["iso_code"].to_dict()
-# But panel uses csv, so we need a different approach
 # Build a name-to-ISO3 from the policy data itself + known fixes
 name_to_iso3_fix = {
     "United States": "USA", "India": "IND", "Turkey": "TUR", "Brazil": "BRA",

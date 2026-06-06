@@ -259,7 +259,7 @@ that, conditional on importer, year, and product fixed effects, pre-existing Chi
 import shares affect changes in outcomes only through their interaction with
 de-risking policies (exclusion restriction).
 
-The first stage is very strong: $F = 311,003$, reflecting the mechanical relationship
+The first stage is very strong: $F = 104,125$, reflecting the mechanical relationship
 between the pre-China share and policy exposure interacted with post-policy timing.
 This is substantially above the Stock-Yogo critical value for 10% maximal IV bias
 (approximately 16.38 for one endogenous regressor and one instrument).
@@ -392,11 +392,11 @@ and Supplementary Table S7.
 ## 6. Counterfactual Scenario Specification
 
 **Scenario 1 (Business as Usual)**: All parameters at calibrated values. Existing
-de-risking policies maintained but not intensified through 2035.
+de-risking policies maintained at current levels, with no additional measures introduced.
 
-**Scenario 2 (Full Decoupling)**: High-income countries eliminate all clean-tech
-imports from China. Implemented as $\hat{\tau}_{China,j} \to \infty$ for all
-$j \in \text{High-income}$, effectively setting bilateral trade shares to zero.
+**Scenario 2 (Full Decoupling)**: Trade costs on Chinese exports to high-income
+countries are tripled. Implemented as $\hat{\tau}_{China,j} = 3.0$ for all
+$j \in \text{High-income}$, representing a severe but not complete decoupling.
 
 **Scenario 3 (CBAM Extension)**: A carbon price of $100/\text{tCO}_2$ applied to
 all imports. The trade cost shock for each bilateral pair is proportional to the
@@ -412,15 +412,15 @@ The MFN tariff change for club members is approximately +2.3 percentage points
 for clean-tech products.
 
 **Scenario 5 (Inclusive Green Trade)**: Climate Club framework (Scenario 4) augmented
-with: (a) technology transfer that reduces developing-country production costs by 15%
-through licensing and know-how sharing ($\hat{w}_i = 0.85$ for developing countries),
-and (b) concessional finance that reduces the cost of capital for clean-tech
-manufacturing investment in developing countries from 8-12% to 4-6%, modeled as a
-10% reduction in the effective cost of production.
+with: (a) technology transfer that reduces the cost of importing from developing
+countries by 15% through licensing and know-how sharing ($\hat{\tau} = 0.85$
+for developing-country exporters), and (b) concessional finance that reduces trade
+costs to developing countries by 7%, modeled as $\hat{\tau} = 0.93$ for imports
+to developing countries.
 
 **Scenario 6 (China Export Restrictions)**: China imposes export licensing requirements
 on solar-grade polysilicon, rare-earth permanent magnets, and battery-grade lithium.
-Implemented as $\hat{\tau}_{China,j} = 1.25$ (25% increase in effective export costs
+Implemented as $\hat{\tau}_{China,j} = 2.0$ (doubling effective export costs
 for the affected product categories) for all importing countries $j$.
 
 ---

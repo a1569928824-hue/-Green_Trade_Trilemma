@@ -291,17 +291,23 @@ print(f"  {len(t5)} outcomes")
 print("\n[Table S6] Product-Level DID...")
 t6_rows = [
     {"specification": "OLS (post)", "outcome": "Import unit value (log)",
-     "beta": -0.0498, "se": 0.0146, "p": 0.0006, "n": 246639, "F_first_stage": "N/A"},
+     "beta": -0.0186, "se": 0.0118, "p": 0.1152, "n": 246639, "F_first_stage": "N/A"},
     {"specification": "IV-2SLS", "outcome": "Import unit value (log)",
-     "beta": -0.3987, "se": 0.0961, "p": 0.0000, "n": 246639, "F_first_stage": 311003},
+     "beta": -0.1406, "se": 0.0529, "p": 0.0079, "n": 246639, "F_first_stage": 104125},
     {"specification": "Reduced form (Bartik)", "outcome": "Import unit value (log)",
-     "beta": -0.8035, "se": 0.1937, "p": 0.0000, "n": 246639, "F_first_stage": "N/A"},
+     "beta": -0.3668, "se": 0.1380, "p": 0.0079, "n": 246639, "F_first_stage": "N/A"},
     {"specification": "OLS (post)", "outcome": "Import volume (log)",
-     "beta": -0.0301, "se": 0.0178, "p": 0.0901, "n": 246639, "F_first_stage": "N/A"},
+     "beta": 0.0423, "se": 0.0144, "p": 0.0032, "n": 246639, "F_first_stage": "N/A"},
     {"specification": "IV-2SLS", "outcome": "Import volume (log)",
-     "beta": -0.1753, "se": 0.1171, "p": 0.1343, "n": 246639, "F_first_stage": 311003},
+     "beta": 0.0555, "se": 0.0644, "p": 0.3889, "n": 246639, "F_first_stage": 104125},
+    {"specification": "Reduced form (Bartik)", "outcome": "Import volume (log)",
+     "beta": 0.1449, "se": 0.1681, "p": 0.3889, "n": 246639, "F_first_stage": "N/A"},
     {"specification": "OLS (post)", "outcome": "China import share",
-     "beta": 0.0141, "se": 0.0023, "p": 0.0000, "n": 246639, "F_first_stage": "N/A"},
+     "beta": -0.0088, "se": 0.0019, "p": 0.0000, "n": 246639, "F_first_stage": "N/A"},
+    {"specification": "IV-2SLS", "outcome": "China import share",
+     "beta": -0.0656, "se": 0.0083, "p": 0.0000, "n": 246639, "F_first_stage": 104125},
+    {"specification": "Reduced form (Bartik)", "outcome": "China import share",
+     "beta": -0.1711, "se": 0.0218, "p": 0.0000, "n": 246639, "F_first_stage": "N/A"},
 ]
 t6 = pd.DataFrame(t6_rows)
 t6.to_csv(os.path.join(SUPP, "Table_S6_product_did.csv"), index=False)

@@ -1,7 +1,10 @@
 specification,outcome,beta,se,p,n,F_first_stage
-OLS (post),Import unit value (log),-0.0498,0.0146,0.0006,246639,N/A
-IV-2SLS,Import unit value (log),-0.3987,0.0961,0.0,246639,311003
-Reduced form (Bartik),Import unit value (log),-0.8035,0.1937,0.0,246639,N/A
-OLS (post),Import volume (log),-0.0301,0.0178,0.0901,246639,N/A
-IV-2SLS,Import volume (log),-0.1753,0.1171,0.1343,246639,311003
-OLS (post),China import share,0.0141,0.0023,0.0,246639,N/A
+OLS (post),Import unit value (log),-0.0186,0.0118,0.1152,246639,N/A
+IV-2SLS,Import unit value (log),-0.1406,0.0529,0.0079,246639,104125
+Reduced form (Bartik),Import unit value (log),-0.3668,0.138,0.0079,246639,N/A
+OLS (post),Import volume (log),0.0423,0.0144,0.0032,246639,N/A
+IV-2SLS,Import volume (log),0.0555,0.0644,0.3889,246639,104125
+Reduced form (Bartik),Import volume (log),0.1449,0.1681,0.3889,246639,N/A
+OLS (post),China import share,-0.0088,0.0019,0.0,246639,N/A
+IV-2SLS,China import share,-0.0656,0.0083,0.0,246639,104125
+Reduced form (Bartik),China import share,-0.1711,0.0218,0.0,246639,N/A
