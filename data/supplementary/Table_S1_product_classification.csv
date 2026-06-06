@@ -1,0 +1,125 @@
+hs6_code,technology_group,description
+250410,Li-ion Battery Supply Chain,Natural graphite (anode material)
+280461,Solar Photovoltaic Systems,Silicon containing >=99.99% (polysilicon)
+280490,Li-ion Battery Supply Chain,Selenium
+281122,Solar Photovoltaic Systems,Silicon dioxide
+281520,Li-ion Battery Supply Chain,Potassium hydroxide (electrolyte)
+281820,Li-ion Battery Supply Chain,Alumina (separator coating)
+282520,Li-ion Battery Supply Chain,Lithium oxide/hydroxide
+282590,Li-ion Battery Supply Chain,Other inorganic bases (cobalt/nickel hydroxides)
+282690,Li-ion Battery Supply Chain,Lithium hexafluorophosphate & other fluoro salts
+282731,Li-ion Battery Supply Chain,Magnesium chloride
+283010,Li-ion Battery Supply Chain,Sodium sulfides
+283691,Li-ion Battery Supply Chain,Lithium carbonates
+284160,Li-ion Battery Supply Chain,Manganites/manganates (cathode precursors)
+284290,Li-ion Battery Supply Chain,Other inorganic salts
+381800,Solar Photovoltaic Systems,Doped silicon wafers for PV cells
+391990,Solar Photovoltaic Systems,Self-adhesive plastic sheets/film
+392010,Solar Photovoltaic Systems,PE film (encapsulant)
+392190,Li-ion Battery Supply Chain,Other plastic sheets/film (pouch film)
+392690,Wind Power Equipment,Plastic articles (GFRP/CFRP components)
+681091,Wind Power Equipment,Prefabricated structural components
+681599,Wind Power Equipment,Articles of stone/minerals (carbon fiber)
+700719,Solar Photovoltaic Systems,Tempered safety glass (PV cover glass)
+700729,Solar Photovoltaic Systems,Laminated safety glass
+730431,Smart Grid & Enabling Technologies,Cold-drawn steel tubes
+730441,Smart Grid & Enabling Technologies,Stainless steel tubes cold-drawn
+730820,Wind Power Equipment,Towers and lattice masts (turbine towers)
+730890,Solar Photovoltaic Systems,Steel structures (ground mounts)
+730900,Hydrogen & Electrolyzer,Tanks for compressed/liquefied gas
+731100,Hydrogen & Electrolyzer,Containers for compressed gas (H2 cylinders)
+741300,Solar Photovoltaic Systems,Copper stranded wire/cables (DC cabling)
+760429,Solar Photovoltaic Systems,Aluminum alloy profiles (mounting rails)
+760611,Solar Photovoltaic Systems,Aluminum plates/sheets (frames)
+760720,Li-ion Battery Supply Chain,Aluminum foil backed (pouch cell)
+761090,Solar Photovoltaic Systems,Aluminum structures (racking)
+761699,Solar Photovoltaic Systems,Aluminum articles (mounting hardware)
+841181,Smart Grid & Enabling Technologies,Other gas turbines <=5000 kW
+841182,Smart Grid & Enabling Technologies,Gas turbines >5000 kW
+841199,Smart Grid & Enabling Technologies,Gas turbine parts
+841280,Wind Power Equipment,Other engines (yaw drives)
+841290,Wind Power Equipment,Engine parts (pitch/yaw systems)
+841480,Hydrogen & Electrolyzer,Air/gas compressors
+841780,Smart Grid & Enabling Technologies,Industrial/lab furnaces
+841861,Smart Grid & Enabling Technologies,Heat pumps (compression)
+841919,Smart Grid & Enabling Technologies,Solar water heaters
+841940,Hydrogen & Electrolyzer,Distillation/rectification equipment
+841950,Smart Grid & Enabling Technologies,Heat exchange units
+841960,Hydrogen & Electrolyzer,Gas liquefaction equipment
+841989,Hydrogen & Electrolyzer,Industrial equipment (reformers/H2 generators)
+841990,Hydrogen & Electrolyzer,Parts of industrial equipment
+842139,Hydrogen & Electrolyzer,Gas filtering/purification
+847982,Li-ion Battery Supply Chain,Mixing/kneading machines (electrode slurry)
+847989,Li-ion Battery Supply Chain,Other machines (coating/calendering)
+847990,Li-ion Battery Supply Chain,Parts of machines (battery manufacturing)
+848180,Hydrogen & Electrolyzer,Valves (high-pressure hydrogen)
+848210,Wind Power Equipment,Ball bearings
+848220,Wind Power Equipment,Tapered roller bearings
+848230,Wind Power Equipment,Spherical roller bearings
+848250,Wind Power Equipment,Cylindrical roller bearings
+848280,Wind Power Equipment,Other bearings including combined
+848310,Wind Power Equipment,Transmission shafts (main shaft)
+848340,Wind Power Equipment,Gearboxes/speed changers
+848360,Wind Power Equipment,Clutches and shaft couplings
+850131,Solar Photovoltaic Systems,DC motors <=750W (trackers)
+850132,Solar Photovoltaic Systems,DC motors >750W (large trackers)
+850140,Wind Power Equipment,AC motors single-phase (yaw motors)
+850152,Smart Grid & Enabling Technologies,AC motors multi-phase >750W (industrial drives)
+850164,Wind Power Equipment,AC generators >750 kVA
+850231,Wind Power Equipment,Wind-powered generating sets
+850300,Solar Photovoltaic Systems,Parts for electric motors/generators
+850421,Wind Power Equipment,Liquid dielectric transformers <=650 kVA
+850422,Wind Power Equipment,Transformers 650-10000 kVA
+850423,Wind Power Equipment,Transformers >10000 kVA
+850440,Solar Photovoltaic Systems,Static converters (inverters)
+850490,Solar Photovoltaic Systems,Parts for static converters
+850650,Li-ion Battery Supply Chain,Lithium primary batteries
+850680,Li-ion Battery Supply Chain,Other primary batteries
+850720,Li-ion Battery Supply Chain,Lead-acid accumulators (grid storage)
+850760,Li-ion Battery Supply Chain,Lithium-ion accumulators
+850780,Li-ion Battery Supply Chain,Other accumulators (solid-state)
+850790,Li-ion Battery Supply Chain,Battery parts (separators/casings)
+851762,Smart Grid & Enabling Technologies,Communication equipment (smart grid comms)
+853521,Smart Grid & Enabling Technologies,Auto circuit breakers
+853529,Smart Grid & Enabling Technologies,Other circuit breakers
+853530,Smart Grid & Enabling Technologies,Isolating/make-and-break switches
+853540,Smart Grid & Enabling Technologies,Lightning arresters/voltage limiters
+853590,Smart Grid & Enabling Technologies,Other switching equipment >1kV
+853650,Li-ion Battery Supply Chain,Switches (BMS relays)
+853690,Solar Photovoltaic Systems,Electrical connectors/junction boxes
+853710,Solar Photovoltaic Systems,Control panels <=1kV (MPPT/controllers)
+853720,Wind Power Equipment,Control panels >1kV (wind farm substation)
+854140,Solar Photovoltaic Systems,Photosensitive semiconductor devices (PV cells)
+854142,Solar Photovoltaic Systems,PV cells not assembled into modules
+854143,Solar Photovoltaic Systems,PV cells assembled into modules/panels
+854190,Solar Photovoltaic Systems,Parts of PV cells/modules
+854330,Hydrogen & Electrolyzer,Electroplating/electrolysis equipment
+854370,Li-ion Battery Supply Chain,Other electrical equipment (BMS)
+854420,Smart Grid & Enabling Technologies,Coaxial cable
+854442,Solar Photovoltaic Systems,Electric conductors with connectors (MC4 etc.)
+854460,Smart Grid & Enabling Technologies,Electric conductors >1kV
+900190,Solar Photovoltaic Systems,Optical elements (concentrators)
+900290,Solar Photovoltaic Systems,Mirrors/reflectors (CSP)
+901380,Smart Grid & Enabling Technologies,Optical devices (solar resource monitoring)
+901390,Smart Grid & Enabling Technologies,Optical parts
+902610,Hydrogen & Electrolyzer,Flow meters
+902620,Hydrogen & Electrolyzer,Pressure measurement
+902680,Hydrogen & Electrolyzer,Other gas measurement instruments
+902710,Hydrogen & Electrolyzer,Gas analyzers
+902720,Hydrogen & Electrolyzer,Chromatographs
+902750,Smart Grid & Enabling Technologies,Other optical instruments (pyranometers)
+902780,Smart Grid & Enabling Technologies,Other analytical instruments
+902830,Smart Grid & Enabling Technologies,Electricity meters (smart meters)
+903010,Smart Grid & Enabling Technologies,Radiation measurement
+903031,Smart Grid & Enabling Technologies,Multimeters
+903033,Li-ion Battery Supply Chain,Electrical measurement instruments (battery testers)
+903039,Smart Grid & Enabling Technologies,Other measurement instruments
+903084,Smart Grid & Enabling Technologies,Instruments with recording device
+903090,Smart Grid & Enabling Technologies,Parts for radiation measurement
+903180,Li-ion Battery Supply Chain,Other measuring instruments (BMS testers)
+903190,Smart Grid & Enabling Technologies,Parts for measuring instruments
+903220,Solar Photovoltaic Systems,Thermostats
+903281,Smart Grid & Enabling Technologies,Hydraulic/pneumatic controllers
+903289,Solar Photovoltaic Systems,Automatic regulating/controlling instruments
+903300,Smart Grid & Enabling Technologies,Parts for chapter 90 instruments
+940540,Solar Photovoltaic Systems,LED lighting fixtures (solar integrated)

@@ -1,0 +1,296 @@
+﻿country,iso_code,year,raw_value,technology,capacity_mw,source
+Australia,AUS,2015,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2016,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2017,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2018,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2019,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2020,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2021,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2022,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2023,0.1,Geothermal,0.1,OWID_IRENA
+Australia,AUS,2024,0.1,Geothermal,0.1,OWID_IRENA
+Austria,AUT,2015,0.915,Geothermal,0.915,OWID_IRENA
+Austria,AUT,2016,0.924,Geothermal,0.924,OWID_IRENA
+Austria,AUT,2017,0.915,Geothermal,0.915,OWID_IRENA
+Austria,AUT,2018,0.915,Geothermal,0.915,OWID_IRENA
+Austria,AUT,2019,0.915,Geothermal,0.915,OWID_IRENA
+Austria,AUT,2020,0.915,Geothermal,0.915,OWID_IRENA
+Austria,AUT,2021,0.25,Geothermal,0.25,OWID_IRENA
+Austria,AUT,2022,0.25,Geothermal,0.25,OWID_IRENA
+Austria,AUT,2023,0.25,Geothermal,0.25,OWID_IRENA
+Austria,AUT,2024,0.25,Geothermal,0.25,OWID_IRENA
+Chile,CHL,2017,24.0,Geothermal,24.0,OWID_IRENA
+Chile,CHL,2018,39.7,Geothermal,39.7,OWID_IRENA
+Chile,CHL,2019,39.7,Geothermal,39.7,OWID_IRENA
+Chile,CHL,2020,39.7,Geothermal,39.7,OWID_IRENA
+Chile,CHL,2021,51.4,Geothermal,51.4,OWID_IRENA
+Chile,CHL,2022,83.37,Geothermal,83.37,OWID_IRENA
+Chile,CHL,2023,83.58,Geothermal,83.58,OWID_IRENA
+Chile,CHL,2024,83.58,Geothermal,83.58,OWID_IRENA
+China,CHN,2015,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2016,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2017,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2018,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2019,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2020,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2021,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2022,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2023,25.75,Geothermal,25.75,OWID_IRENA
+China,CHN,2024,25.75,Geothermal,25.75,OWID_IRENA
+Costa Rica,CRI,2015,217.361,Geothermal,217.361,OWID_IRENA
+Costa Rica,CRI,2016,206.86,Geothermal,206.86,OWID_IRENA
+Costa Rica,CRI,2017,206.86,Geothermal,206.86,OWID_IRENA
+Costa Rica,CRI,2018,206.86,Geothermal,206.86,OWID_IRENA
+Costa Rica,CRI,2019,261.86,Geothermal,261.86,OWID_IRENA
+Costa Rica,CRI,2020,261.86,Geothermal,261.86,OWID_IRENA
+Costa Rica,CRI,2021,258.84,Geothermal,258.84,OWID_IRENA
+Costa Rica,CRI,2022,262.66,Geothermal,262.66,OWID_IRENA
+Costa Rica,CRI,2023,262.66,Geothermal,262.66,OWID_IRENA
+Costa Rica,CRI,2024,262.66,Geothermal,262.66,OWID_IRENA
+Croatia,HRV,2018,10.0,Geothermal,10.0,OWID_IRENA
+Croatia,HRV,2019,10.0,Geothermal,10.0,OWID_IRENA
+Croatia,HRV,2020,10.0,Geothermal,10.0,OWID_IRENA
+Croatia,HRV,2021,10.0,Geothermal,10.0,OWID_IRENA
+Croatia,HRV,2022,10.0,Geothermal,10.0,OWID_IRENA
+Croatia,HRV,2023,10.0,Geothermal,10.0,OWID_IRENA
+Croatia,HRV,2024,10.0,Geothermal,10.0,OWID_IRENA
+El Salvador,SLV,2015,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2016,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2017,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2018,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2019,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2020,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2021,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2022,204.44,Geothermal,204.44,OWID_IRENA
+El Salvador,SLV,2023,209.4,Geothermal,209.4,OWID_IRENA
+El Salvador,SLV,2024,209.4,Geothermal,209.4,OWID_IRENA
+Ethiopia,ETH,2015,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2016,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2017,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2018,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2019,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2020,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2021,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2022,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2023,7.3,Geothermal,7.3,OWID_IRENA
+Ethiopia,ETH,2024,7.3,Geothermal,7.3,OWID_IRENA
+France,FRA,2015,14.75,Geothermal,14.75,OWID_IRENA
+France,FRA,2016,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2017,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2018,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2019,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2020,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2021,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2022,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2023,16.15,Geothermal,16.15,OWID_IRENA
+France,FRA,2024,16.15,Geothermal,16.15,OWID_IRENA
+Germany,DEU,2015,29.0,Geothermal,29.0,OWID_IRENA
+Germany,DEU,2016,33.0,Geothermal,33.0,OWID_IRENA
+Germany,DEU,2017,32.0,Geothermal,32.0,OWID_IRENA
+Germany,DEU,2018,35.0,Geothermal,35.0,OWID_IRENA
+Germany,DEU,2019,40.0,Geothermal,40.0,OWID_IRENA
+Germany,DEU,2020,40.0,Geothermal,40.0,OWID_IRENA
+Germany,DEU,2021,46.0,Geothermal,46.0,OWID_IRENA
+Germany,DEU,2022,52.0,Geothermal,52.0,OWID_IRENA
+Germany,DEU,2023,52.0,Geothermal,52.0,OWID_IRENA
+Germany,DEU,2024,44.0,Geothermal,44.0,OWID_IRENA
+Guadeloupe,GLP,2015,14.5,Geothermal,14.5,OWID_IRENA
+Guadeloupe,GLP,2016,15.0,Geothermal,15.0,OWID_IRENA
+Guadeloupe,GLP,2017,15.0,Geothermal,15.0,OWID_IRENA
+Guadeloupe,GLP,2018,14.7,Geothermal,14.7,OWID_IRENA
+Guadeloupe,GLP,2019,14.5,Geothermal,14.5,OWID_IRENA
+Guadeloupe,GLP,2020,14.5,Geothermal,14.5,OWID_IRENA
+Guadeloupe,GLP,2021,14.5,Geothermal,14.5,OWID_IRENA
+Guadeloupe,GLP,2022,14.5,Geothermal,14.5,OWID_IRENA
+Guadeloupe,GLP,2023,14.5,Geothermal,14.5,OWID_IRENA
+Guadeloupe,GLP,2024,14.5,Geothermal,14.5,OWID_IRENA
+Guatemala,GTM,2015,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2016,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2017,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2018,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2019,52.0,Geothermal,52.0,OWID_IRENA
+Guatemala,GTM,2020,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2021,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2022,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2023,49.2,Geothermal,49.2,OWID_IRENA
+Guatemala,GTM,2024,49.2,Geothermal,49.2,OWID_IRENA
+Honduras,HND,2017,35.0,Geothermal,35.0,OWID_IRENA
+Honduras,HND,2018,35.0,Geothermal,35.0,OWID_IRENA
+Honduras,HND,2019,35.0,Geothermal,35.0,OWID_IRENA
+Honduras,HND,2020,39.0,Geothermal,39.0,OWID_IRENA
+Honduras,HND,2021,39.0,Geothermal,39.0,OWID_IRENA
+Honduras,HND,2022,39.0,Geothermal,39.0,OWID_IRENA
+Honduras,HND,2023,39.0,Geothermal,39.0,OWID_IRENA
+Honduras,HND,2024,39.0,Geothermal,39.0,OWID_IRENA
+Hungary,HUN,2017,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2018,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2019,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2020,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2021,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2022,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2023,3.0,Geothermal,3.0,OWID_IRENA
+Hungary,HUN,2024,3.0,Geothermal,3.0,OWID_IRENA
+Iceland,ISL,2015,665.0,Geothermal,665.0,OWID_IRENA
+Iceland,ISL,2016,665.0,Geothermal,665.0,OWID_IRENA
+Iceland,ISL,2017,709.958,Geothermal,709.958,OWID_IRENA
+Iceland,ISL,2018,755.558,Geothermal,755.558,OWID_IRENA
+Iceland,ISL,2019,755.558,Geothermal,755.558,OWID_IRENA
+Iceland,ISL,2020,756.158,Geothermal,756.158,OWID_IRENA
+Iceland,ISL,2021,756.208,Geothermal,756.208,OWID_IRENA
+Iceland,ISL,2022,757.58,Geothermal,757.58,OWID_IRENA
+Iceland,ISL,2023,787.58,Geothermal,787.58,OWID_IRENA
+Iceland,ISL,2024,787.58,Geothermal,787.58,OWID_IRENA
+Indonesia,IDN,2015,1438.3,Geothermal,1438.3,OWID_IRENA
+Indonesia,IDN,2016,1533.3,Geothermal,1533.3,OWID_IRENA
+Indonesia,IDN,2017,1808.3,Geothermal,1808.3,OWID_IRENA
+Indonesia,IDN,2018,1948.3,Geothermal,1948.3,OWID_IRENA
+Indonesia,IDN,2019,2130.7,Geothermal,2130.7,OWID_IRENA
+Indonesia,IDN,2020,2130.7,Geothermal,2130.7,OWID_IRENA
+Indonesia,IDN,2021,2286.05,Geothermal,2286.05,OWID_IRENA
+Indonesia,IDN,2022,2360.33,Geothermal,2360.33,OWID_IRENA
+Indonesia,IDN,2023,2597.51,Geothermal,2597.51,OWID_IRENA
+Indonesia,IDN,2024,2638.8,Geothermal,2638.8,OWID_IRENA
+Italy,ITA,2015,768.0,Geothermal,768.0,OWID_IRENA
+Italy,ITA,2016,767.0,Geothermal,767.0,OWID_IRENA
+Italy,ITA,2017,767.19,Geothermal,767.19,OWID_IRENA
+Italy,ITA,2018,767.19,Geothermal,767.19,OWID_IRENA
+Italy,ITA,2019,767.19,Geothermal,767.19,OWID_IRENA
+Italy,ITA,2020,771.79,Geothermal,771.79,OWID_IRENA
+Italy,ITA,2021,771.79,Geothermal,771.79,OWID_IRENA
+Italy,ITA,2022,771.79,Geothermal,771.79,OWID_IRENA
+Italy,ITA,2023,771.79,Geothermal,771.79,OWID_IRENA
+Italy,ITA,2024,771.79,Geothermal,771.79,OWID_IRENA
+Japan,JPN,2015,516.0,Geothermal,516.0,OWID_IRENA
+Japan,JPN,2016,526.0,Geothermal,526.0,OWID_IRENA
+Japan,JPN,2017,471.366,Geothermal,471.366,OWID_IRENA
+Japan,JPN,2018,473.115,Geothermal,473.115,OWID_IRENA
+Japan,JPN,2019,480.714,Geothermal,480.714,OWID_IRENA
+Japan,JPN,2020,487.004,Geothermal,487.004,OWID_IRENA
+Japan,JPN,2021,486.814,Geothermal,486.814,OWID_IRENA
+Japan,JPN,2022,436.814,Geothermal,436.814,OWID_IRENA
+Japan,JPN,2023,456.054,Geothermal,456.054,OWID_IRENA
+Japan,JPN,2024,489.054,Geothermal,489.054,OWID_IRENA
+Kenya,KEN,2015,618.9,Geothermal,618.9,OWID_IRENA
+Kenya,KEN,2016,652.9,Geothermal,652.9,OWID_IRENA
+Kenya,KEN,2017,672.9,Geothermal,672.9,OWID_IRENA
+Kenya,KEN,2018,683.8,Geothermal,683.8,OWID_IRENA
+Kenya,KEN,2019,683.8,Geothermal,683.8,OWID_IRENA
+Kenya,KEN,2020,863.13,Geothermal,863.13,OWID_IRENA
+Kenya,KEN,2021,863.13,Geothermal,863.13,OWID_IRENA
+Kenya,KEN,2022,949.73,Geothermal,949.73,OWID_IRENA
+Kenya,KEN,2023,984.73,Geothermal,984.73,OWID_IRENA
+Kenya,KEN,2024,939.73,Geothermal,939.73,OWID_IRENA
+Mexico,MEX,2015,898.0,Geothermal,898.0,OWID_IRENA
+Mexico,MEX,2016,923.5,Geothermal,923.5,OWID_IRENA
+Mexico,MEX,2017,948.5,Geothermal,948.5,OWID_IRENA
+Mexico,MEX,2018,948.5,Geothermal,948.5,OWID_IRENA
+Mexico,MEX,2019,973.5,Geothermal,973.5,OWID_IRENA
+Mexico,MEX,2020,973.5,Geothermal,973.5,OWID_IRENA
+Mexico,MEX,2021,998.5,Geothermal,998.5,OWID_IRENA
+Mexico,MEX,2022,998.5,Geothermal,998.5,OWID_IRENA
+Mexico,MEX,2023,998.5,Geothermal,998.5,OWID_IRENA
+Mexico,MEX,2024,998.5,Geothermal,998.5,OWID_IRENA
+New Zealand,NZL,2015,990.0,Geothermal,990.0,OWID_IRENA
+New Zealand,NZL,2016,985.0,Geothermal,985.0,OWID_IRENA
+New Zealand,NZL,2017,985.0,Geothermal,985.0,OWID_IRENA
+New Zealand,NZL,2018,1009.0,Geothermal,1009.0,OWID_IRENA
+New Zealand,NZL,2019,1009.0,Geothermal,1009.0,OWID_IRENA
+New Zealand,NZL,2020,1043.0,Geothermal,1043.0,OWID_IRENA
+New Zealand,NZL,2021,1043.0,Geothermal,1043.0,OWID_IRENA
+New Zealand,NZL,2022,1050.0,Geothermal,1050.0,OWID_IRENA
+New Zealand,NZL,2023,1050.0,Geothermal,1050.0,OWID_IRENA
+New Zealand,NZL,2024,1275.4,Geothermal,1275.4,OWID_IRENA
+Nicaragua,NIC,2015,154.5,Geothermal,154.5,OWID_IRENA
+Nicaragua,NIC,2016,154.5,Geothermal,154.5,OWID_IRENA
+Nicaragua,NIC,2017,154.5,Geothermal,154.5,OWID_IRENA
+Nicaragua,NIC,2018,154.5,Geothermal,154.5,OWID_IRENA
+Nicaragua,NIC,2019,153.24,Geothermal,153.24,OWID_IRENA
+Nicaragua,NIC,2020,153.24,Geothermal,153.24,OWID_IRENA
+Nicaragua,NIC,2021,153.24,Geothermal,153.24,OWID_IRENA
+Nicaragua,NIC,2022,165.44,Geothermal,165.44,OWID_IRENA
+Nicaragua,NIC,2023,165.44,Geothermal,165.44,OWID_IRENA
+Nicaragua,NIC,2024,165.44,Geothermal,165.44,OWID_IRENA
+Papua New Guinea,PNG,2015,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2016,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2017,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2018,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2019,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2020,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2021,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2022,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2023,50.0,Geothermal,50.0,OWID_IRENA
+Papua New Guinea,PNG,2024,51.0,Geothermal,51.0,OWID_IRENA
+Philippines,PHL,2015,1916.1,Geothermal,1916.1,OWID_IRENA
+Philippines,PHL,2016,1916.1,Geothermal,1916.1,OWID_IRENA
+Philippines,PHL,2017,1916.1,Geothermal,1916.1,OWID_IRENA
+Philippines,PHL,2018,1928.1,Geothermal,1928.1,OWID_IRENA
+Philippines,PHL,2019,1928.1,Geothermal,1928.1,OWID_IRENA
+Philippines,PHL,2020,1928.1,Geothermal,1928.1,OWID_IRENA
+Philippines,PHL,2021,1928.1,Geothermal,1928.1,OWID_IRENA
+Philippines,PHL,2022,1932.0,Geothermal,1932.0,OWID_IRENA
+Philippines,PHL,2023,1951.8,Geothermal,1951.8,OWID_IRENA
+Philippines,PHL,2024,1951.8,Geothermal,1951.8,OWID_IRENA
+Portugal,PRT,2015,25.0,Geothermal,25.0,OWID_IRENA
+Portugal,PRT,2016,25.0,Geothermal,25.0,OWID_IRENA
+Portugal,PRT,2017,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2018,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2019,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2020,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2021,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2022,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2023,29.1,Geothermal,29.1,OWID_IRENA
+Portugal,PRT,2024,29.1,Geothermal,29.1,OWID_IRENA
+Romania,ROU,2015,0.05,Geothermal,0.05,OWID_IRENA
+Romania,ROU,2016,0.05,Geothermal,0.05,OWID_IRENA
+Romania,ROU,2017,0.05,Geothermal,0.05,OWID_IRENA
+Romania,ROU,2018,0.05,Geothermal,0.05,OWID_IRENA
+Romania,ROU,2019,0.05,Geothermal,0.05,OWID_IRENA
+Romania,ROU,2020,0.05,Geothermal,0.05,OWID_IRENA
+Romania,ROU,2021,0.05,Geothermal,0.05,OWID_IRENA
+Russia,RUS,2015,74.0,Geothermal,74.0,OWID_IRENA
+Russia,RUS,2016,74.0,Geothermal,74.0,OWID_IRENA
+Russia,RUS,2017,74.0,Geothermal,74.0,OWID_IRENA
+Russia,RUS,2018,74.0,Geothermal,74.0,OWID_IRENA
+Russia,RUS,2019,81.4,Geothermal,81.4,OWID_IRENA
+Russia,RUS,2020,81.4,Geothermal,81.4,OWID_IRENA
+Russia,RUS,2021,81.4,Geothermal,81.4,OWID_IRENA
+Russia,RUS,2022,81.4,Geothermal,81.4,OWID_IRENA
+Russia,RUS,2023,81.4,Geothermal,81.4,OWID_IRENA
+Russia,RUS,2024,81.4,Geothermal,81.4,OWID_IRENA
+Taiwan,TWN,2018,0.03,Geothermal,0.03,OWID_IRENA
+Taiwan,TWN,2019,0.3,Geothermal,0.3,OWID_IRENA
+Taiwan,TWN,2020,0.3,Geothermal,0.3,OWID_IRENA
+Taiwan,TWN,2021,4.5,Geothermal,4.5,OWID_IRENA
+Taiwan,TWN,2022,4.999,Geothermal,4.999,OWID_IRENA
+Taiwan,TWN,2023,7.289,Geothermal,7.289,OWID_IRENA
+Taiwan,TWN,2024,7.489,Geothermal,7.489,OWID_IRENA
+Thailand,THA,2015,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2016,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2017,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2018,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2019,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2020,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2021,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2022,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2023,0.3,Geothermal,0.3,OWID_IRENA
+Thailand,THA,2024,0.3,Geothermal,0.3,OWID_IRENA
+Turkey,TUR,2015,624.0,Geothermal,624.0,OWID_IRENA
+Turkey,TUR,2016,821.0,Geothermal,821.0,OWID_IRENA
+Turkey,TUR,2017,1063.7,Geothermal,1063.7,OWID_IRENA
+Turkey,TUR,2018,1282.518,Geothermal,1282.518,OWID_IRENA
+Turkey,TUR,2019,1514.688,Geothermal,1514.688,OWID_IRENA
+Turkey,TUR,2020,1613.188,Geothermal,1613.188,OWID_IRENA
+Turkey,TUR,2021,1676.17,Geothermal,1676.17,OWID_IRENA
+Turkey,TUR,2022,1691.338,Geothermal,1691.338,OWID_IRENA
+Turkey,TUR,2023,1691.338,Geothermal,1691.338,OWID_IRENA
+Turkey,TUR,2024,1734.338,Geothermal,1734.338,OWID_IRENA
+United States,USA,2015,2542.0,Geothermal,2542.0,OWID_IRENA
+United States,USA,2016,2517.0,Geothermal,2517.0,OWID_IRENA
+United States,USA,2017,2483.3,Geothermal,2483.3,OWID_IRENA
+United States,USA,2018,2444.3,Geothermal,2444.3,OWID_IRENA
+United States,USA,2019,2555.4,Geothermal,2555.4,OWID_IRENA
+United States,USA,2020,2571.9,Geothermal,2571.9,OWID_IRENA
+United States,USA,2021,2596.7,Geothermal,2596.7,OWID_IRENA
+United States,USA,2022,2648.6,Geothermal,2648.6,OWID_IRENA
+United States,USA,2023,2695.8,Geothermal,2695.8,OWID_IRENA
+United States,USA,2024,2725.0,Geothermal,2725.0,OWID_IRENA

@@ -1,0 +1,20 @@
+# Large data files (download separately from CEPII)
+data/raw/BACI_HS12_V202601.zip
+data/raw/baci_low_carbon_trade.csv
+data/raw/worldbank_wdi.csv
+
+# Generated figures and outputs
+figures/
+figures_v13/
+__pycache__/
+*.pyc
+
+# Manuscript backups
+Green_Trade_Trilemma_Manuscript_backup.docx
+Green_Trade_Trilemma_Proposal.docx
+manuscript_text.txt
+manuscript_revision_notes.md
+
+# OS files
+.DS_Store
+Thumbs.db

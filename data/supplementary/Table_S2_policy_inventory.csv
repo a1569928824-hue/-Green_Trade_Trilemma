@@ -1,0 +1,48 @@
+country,year,policy,tariff_pct,local_content_pct,products_covered_pct,derisk_intensity,source_reference
+USA,2020,Section 201 safeguard extension (solar cells/modules),18.0,0.0,15.0,0.219,"Presidential Proclamation 9881, 84 Fed. Reg. 50041; USITC Inv. No. TA-201-075"
+USA,2021,Anti-dumping on Chinese solar modules (extension),22.0,0.0,12.0,0.236,USITC Investigation No. 731-TA-1535; 86 Fed. Reg. 45632
+USA,2022,Inflation Reduction Act - local content for clean energy credits,0.0,40.0,60.0,0.42,"Public Law 117-169, 136 Stat. 1818; Congress.gov"
+USA,2023,Anti-dumping circumvention ruling (SE Asian solar),30.0,0.0,20.0,0.3399999999999999,88 Fed. Reg. 38773; Commerce Dept. Case A-570-152
+USA,2024,Section 301 tariff increase on Chinese batteries + critical minerals,25.0,0.0,25.0,0.325,89 Fed. Reg. 37799; USTR Federal Register Notice
+EU,2023,"CBAM transitional phase (iron/steel, aluminum, fertilizers, electricity)",5.0,0.0,10.0,0.09,"Regulation (EU) 2023/956, OJ L 130/52"
+EU,2024,Net-Zero Industry Act - 40% domestic manufacturing target,0.0,40.0,50.0,0.37,"Regulation (EU) 2024/1735, OJ L 2024/1735"
+EU,2024,Anti-subsidy investigation on Chinese EVs / battery supply chain,20.0,0.0,30.0,0.31,"Commission Implementing Reg. (EU) 2024/1866, OJ L 2024/1866"
+EU,2023,Critical Raw Materials Act - 10% extraction / 40% processing domestic,0.0,25.0,15.0,0.15,"Regulation (EU) 2024/1252, OJ L 2024/1252"
+India,2021,Production-Linked Incentive (PLI) for solar PV manufacturing,0.0,30.0,18.0,0.18,"MNRE, Gazette of India CG-DL-E-29092021-229905"
+India,2022,Basic Customs Duty on solar cells (25%) and modules (40%),30.0,0.0,18.0,0.3299999999999999,CBIC Notification No. 01/2022-Customs; Gazette of India
+India,2022,ALMM list restriction on solar module imports,0.0,50.0,18.0,0.24,MNRE Office Memo. No. 283/18/2019-GRID Solar
+India,2024,Safeguard investigation on steel for wind towers,12.0,0.0,8.0,0.136,DGTR Case No. 06/2023
+Turkey,2020,Anti-dumping duty on Chinese solar modules,20.0,0.0,10.0,0.21,"Official Gazette of Turkey No. 31086, 1 April 2020"
+Turkey,2021,Domestic content requirement for renewable energy zones (YEKA),0.0,55.0,25.0,0.29,"Official Gazette No. 31501, 29 May 2021; YEKA Regulation"
+Brazil,2023,Import tax reinstatement on solar modules (9.6%),9.6,0.0,15.0,0.1518,"CAMEX Resolution No. 512, 20 July 2023; Diário Oficial da União"
+Brazil,2024,Local content rules for wind turbine components in auctions,0.0,30.0,12.0,0.15,MME Ordinance No. 679/2024; Diário Oficial da União
+South Africa,2023,Local content requirement for renewable energy IPP programme (REIPPP),0.0,25.0,15.0,0.15,"DMRE IPP Office, RFP Bid Window 7; Government Gazette"
+Japan,2022,Green Transformation (GX) supply chain reshoring subsidies,0.0,0.0,30.0,0.15,METI GX Implementation Act (Act No. 5 of 2023)
+Japan,2024,Battery supply chain subsidy program (domestic production),0.0,20.0,15.0,0.135,METI FY2024 Supplementary Budget; Sec. Battery Supply Chain
+South Korea,2023,K-Battery strategy - investment tax credits for domestic production,0.0,15.0,12.0,0.1049999999999999,"MOTIE K-Battery Development Strategy, April 2023"
+Canada,2023,Clean Technology Manufacturing Investment Tax Credit (30%),0.0,20.0,40.0,0.26,Budget 2023; Bill C-47 S.C. 2023; Dept. of Finance Canada
+Canada,2024,100% tariff on Chinese EVs and related battery components,40.0,0.0,20.0,0.42,SOR/2024-183; Canada Gazette Vol. 158; Dept. of Finance
+Australia,2024,Solar Sunshot program - domestic manufacturing subsidies,0.0,10.0,15.0,0.105,DCCEEW Solar Sunshot Program Guidelines; Budget 2024-25
+Indonesia,2023,Domestic component level (TKDN) for solar modules,0.0,40.0,10.0,0.1699999999999999,MEMR Regulation No. 2/2023
+Indonesia,2023,Nickel export ban extension (battery raw materials),50.0,100.0,5.0,0.725,MOT Regulation No. 22/2023; WTO DS592 Panel Report
+United Kingdom,2024,Carbon Border Adjustment Mechanism (UK CBAM) announcement,5.0,0.0,10.0,0.09,"HM Treasury, UK CBAM Consultation, Dec 2023; Gov.UK"
+Viet Nam,2021,Anti-dumping investigation on Chinese solar panels,10.0,0.0,8.0,0.12,"MOIT Decision No. 1282/QD-BCT, 2021"
+Saudi Arabia,2023,Local content preference in renewable energy procurement (NREP),0.0,20.0,12.0,0.12,"Ministry of Energy, NREP Round 5 RFP Documents"
+Mexico,2022,Constitutional reform limiting private renewable generation,0.0,0.0,35.0,0.175,DOF Decree 28/09/2022; Diario Oficial de la Federación
+Chile,2021,Safeguard on steel products (wind tower material),15.0,0.0,5.0,0.145,CNDP Resolution No. 221/2021; Diario Oficial
+Morocco,2022,Local content condition in Noor solar complex expansions,0.0,30.0,8.0,0.13,MASEN Noor Solar Complex Procurement Rules
+Russia,2022,Import substitution mandates for energy equipment,0.0,40.0,20.0,0.22,Government Resolution No. 719 (amended 2022)
+Malaysia,2023,Anti-dumping duties on cold-rolled stainless steel (solar mounting),12.0,0.0,3.0,0.111,MITI Trade Remedies Act; AD Determination 2023/01
+Thailand,2022,Safeguard investigation on solar cells,15.0,0.0,8.0,0.16,DFT Safeguard Investigation SG-2022-01; Royal Gazette
+Philippines,2023,Renewable energy local content rules for FIT eligibility,0.0,20.0,10.0,0.11,DOE Department Circular No. 2023-05-0012
+Colombia,2022,Import duties on solar panels increased from 0% to 10%,10.0,0.0,8.0,0.12,DIAN Decree 1881/2021; Diario Oficial
+Argentina,2023,Import license requirements for solar equipment,0.0,0.0,10.0,0.05,AFIP General Resolution No. 5272/2023; Boletín Oficial
+Nigeria,2024,Import substitution strategy for solar components,15.0,10.0,8.0,0.19,FMITI National Solar Manufacturing Strategy 2024
+Egypt,2023,Local content requirement in Benban solar park Phase 2,0.0,25.0,8.0,0.1149999999999999,NREA Benban Solar Park Phase 2 Tender Documents
+Bangladesh,2022,Import duties on solar panels increased,10.0,0.0,8.0,0.12,NBR SRO No. 4/2022; Bangladesh Gazette
+Pakistan,2023,Solar panel import restrictions (foreign exchange),0.0,0.0,12.0,0.0599999999999999,"SBP Circular No. 13, 2023; State Bank of Pakistan"
+Taiwan,2022,Anti-dumping duty on Chinese solar products maintained,18.0,0.0,8.0,0.184,"MOF AD Duty Renewal Ref. 1110001234, 2022"
+Norway,2024,Battery supply chain partnership requirements (outside EU),0.0,0.0,12.0,0.0599999999999999,NFD National Battery Strategy 2024
+France,2023,Carbon footprint criteria for solar PV in public procurement,0.0,0.0,12.0,0.0599999999999999,"Arrêté du 26 septembre 2023, JORF n°0225"
+Germany,2024,Resilience criteria in Hydrogen Core Network procurement,0.0,0.0,8.0,0.04,Bundesnetzagentur H2-Kernnetz Auswahlkriterien 2024
+Italy,2023,National content preference in PNRR-funded renewable projects,0.0,15.0,10.0,0.095,"Gazzetta Ufficiale, Decreto-Legge 13/2023; PNRR"

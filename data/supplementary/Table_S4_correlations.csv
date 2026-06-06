@@ -1,0 +1,4 @@
+sample,GSI-GDI,GSI-GEI,GDI-GEI,n_countries,n_obs
+All observations,0.0454,0.0217,-0.4168,223,2682
+Active (>100MW),-0.0306,0.0737,-0.6803,118,1004
+Active 2024 only,-0.1152,0.1467,-0.7329,118,1004

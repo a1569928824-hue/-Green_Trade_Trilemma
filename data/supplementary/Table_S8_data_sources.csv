@@ -1,0 +1,6 @@
+source_id,name,type,url,version,coverage,access,verified
+1,CEPII BACI HS12,Trade,https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37,V202601,"2012-2024, HS6, ~227 countries","Free download, no registration",Yes
+2,IRENA Renewable Capacity (via OWID),Energy,https://ourworldindata.org/renewable-energy,2025 release,"2015-2024, Solar PV + Wind + Geothermal","CC-BY, GitHub download","Yes (China Solar 887 GW, Wind 521 GW)"
+3,World Bank WDI,Economic,https://api.worldbank.org/v2/country/all/indicator,2025 API,"2015-2025, GDP, population, manufacturing share","Free API, no key required",Yes (US GDP 2020 $21.1T)
+4,De-risking Policy Inventory,Policy,"WTO TPR, IEA Policy DB, national gazettes",Author-compiled 2024,"47 events, 32 countries, 2020-2024",Public official documents,47/47 with citations
+5,Export Restriction Events,Policy,"MOFCOM announcements, WTO DS panel reports",Author-compiled 2025,"7 events, China + Indonesia",Public official documents,7/7 with citations
