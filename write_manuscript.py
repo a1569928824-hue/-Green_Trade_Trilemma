@@ -712,8 +712,8 @@ heading('Data availability', level=2)
 
 para(
     "The low-carbon technology trade database, de-risking policy inventory, and "
-    "trilemma indices constructed for this study are available at [repository URL "
-    "to be assigned upon publication]. The structural model code (Python/Julia) "
+    "trilemma indices constructed for this study are available at https://github.com/"
+    "a1569928824-hue/-Green_Trade_Trilemma. The structural model code (Python/Julia) "
     "is available at the same repository. Source data for UN Comtrade are publicly "
     "available at https://comtrade.un.org; IRENA renewable capacity statistics at "
     "https://www.irena.org; and EXIOBASE MRIO tables at https://www.exiobase.eu."

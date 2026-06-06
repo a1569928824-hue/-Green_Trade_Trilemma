@@ -504,8 +504,8 @@ REPLACEMENTS[75] = (
     "The de-risking policy inventory (47 events) and export restriction database (7 "
     "events) compiled by the authors, with all official government citations, are "
     "available in Supplementary Tables S2 and, along with the constructed trilemma "
-    "indices and analysis-ready panel, at [repository URL to be assigned upon "
-    "publication]. The structural model code (Python) is available at the same "
+    "indices and analysis-ready panel, at https://github.com/a1569928824-hue/"
+    "-Green_Trade_Trilemma. The structural model code (Python) is available at the same "
     "repository."
 )
 
@@ -514,7 +514,7 @@ REPLACEMENTS[78] = (
     "process_data.py), econometric estimation (did_analysis.py, did_product_level.py), "
     "structural model calibration (structural_model.py), figure generation (fig1–4 "
     "scripts), and supplementary table generation (generate_supplementary.py)—is "
-    "available at [repository URL to be assigned upon publication] under an MIT license. "
+    "available at https://github.com/a1569928824-hue/-Green_Trade_Trilemma under an MIT license. "
     "The full analytical pipeline is reproducible from raw data downloads to final "
     "figures and tables."
 )
