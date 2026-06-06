@@ -106,23 +106,22 @@ abstract_text = (
     "framework adequately captures: countries cannot simultaneously maximize the speed "
     "of decarbonization, the security of their clean-energy supply chains, and the "
     "equitable participation of developing economies in the green economy. Here we "
-    "formalize this 'green trade trilemma' and quantify its welfare consequences. "
-    "Using a new dataset covering 189 countries and 212 low-carbon technology products "
-    "from 2015 to 2025, we construct a trilemma index and document a systematic "
-    "trade-off: nations that decarbonize fastest rely most heavily on concentrated "
-    "clean-tech imports, while developing countries remain almost entirely excluded—"
-    "over 90% of low-carbon technology trade occurs between high-income countries and "
-    "China. We then estimate the causal effects of de-risking policies using a "
-    "difference-in-differences framework and show that these policies, while modestly "
-    "improving supply chain diversity, raise clean-energy deployment costs by 18–27% "
-    "and widen the green divide between rich and poor nations. A structural general "
-    "equilibrium model, calibrated to match key trade and technology elasticities, "
-    "evaluates six counterfactual scenarios. The results point to a policy "
-    "configuration—a coordinated climate club with technology transfer and concessional "
-    "finance—that can achieve decarbonization at roughly 85% of the speed of the "
-    "unconstrained optimum while cutting supply chain concentration by half and "
-    "doubling developing-country participation. The green trade trilemma is real and "
-    "quantitatively large; it is not, however, insurmountable."
+    "formalize this 'green trade trilemma' and test it empirically. "
+    "Using a new database covering 223 countries and 124 low-carbon technology products "
+    "from 2015 to 2024, we construct three country-level indices—Green Speed Index (GSI), "
+    "Green Diversity Index (GDI), and Green Equity Index (GEI)—and find that the trilemma "
+    "manifests primarily as a trade-off between supply chain diversification and "
+    "development equity (GDI × GEI r = −0.42), rather than between speed and diversity "
+    "as previously assumed. We then estimate the causal effects of de-risking policies "
+    "using a staggered difference-in-differences design and a product-level Bartik "
+    "(shift-share) instrument, finding that de-risking has limited detectable effects on "
+    "import costs at the country level. A structural trade model (Dekle-Eaton-Kortum "
+    "exact-hat algebra, θ = 4.2) evaluates six counterfactual scenarios. The results "
+    "point to a policy configuration—Inclusive Green Trade, combining a climate club "
+    "with technology transfer and concessional finance—that substantially improves all "
+    "three dimensions simultaneously (+15.8% GEI, +14.2% GSI). Without such a regime, "
+    "the green transition risks becoming a 'green divide' that excludes the world's "
+    "poorest countries."
 )
 para(abstract_text, size=11)
 
@@ -177,17 +176,17 @@ para(
 
 # Paragraph 4: What we do
 para(
-    "This paper does four things. First, it constructs the first comprehensive "
-    "database of global low-carbon technology trade covering 212 products across "
-    "189 countries over the period 2015–2025, and uses it to measure the trilemma "
-    "empirically. Second, it estimates the causal effects of de-risking policies—"
-    "tariffs, local-content requirements, and import restrictions on clean-tech "
-    "products—on deployment costs, trade patterns, and developing-country access. "
-    "Third, it develops a structural general equilibrium model of the global green "
-    "technology market that incorporates learning-by-doing, supply chain network "
-    "effects, and heterogeneous policy preferences across countries. Fourth, it "
-    "evaluates six counterfactual policy regimes and identifies the configuration "
-    "that best navigates the trilemma."
+    "This paper does four things. First, it constructs the first comprehensive database "
+    "of global low-carbon technology trade covering 124 products across 223 countries "
+    "over the period 2015–2024, and uses it to measure the trilemma empirically. Second, "
+    "it estimates the causal effects of de-risking policies on the three trilemma "
+    "dimensions using a staggered difference-in-differences design with both country-level "
+    "and product-level specifications, including a Bartik (shift-share) instrument. Third, "
+    "it employs a quantitative trade model (Dekle-Eaton-Kortum exact-hat algebra) to "
+    "simulate six counterfactual policy regimes, from full decoupling to inclusive "
+    "technology transfer. Fourth, it identifies a policy configuration—Inclusive Green "
+    "Trade—that substantially improves on the current trajectory across all three "
+    "dimensions."
 )
 
 # --- Results 1: Mapping the Trilemma ---
@@ -325,44 +324,40 @@ para(
 heading('A structural model of the green technology market', level=2)
 
 para(
-    "The reduced-form evidence establishes that de-risking involves trade-offs, but "
-    "it cannot tell us what the optimal policy configuration looks like. For that "
-    "we need a structural model that can simulate counterfactual regimes while "
-    "respecting the technological constraints—learning curves, supply chain "
-    "networks, and capital market imperfections—that shape the green technology "
-    "market. We develop such a model here."
+    "The reduced-form evidence documents the empirical patterns, but cannot evaluate "
+    "alternative policy configurations. For that we need a structural model that can "
+    "simulate counterfactual regimes while respecting the technological constraints—"
+    "supply chain linkages, trade costs, and general equilibrium adjustments—that "
+    "shape the green technology market. We employ a quantitative trade model following "
+    "the Dekle-Eaton-Kortum (DEK) exact-hat algebra framework, calibrated to 2024 "
+    "bilateral trade shares in low-carbon technology products."
 )
 
 para(
-    "The model has three building blocks. The production side features N countries, "
-    "each with a representative clean-tech manufacturing sector characterized by "
-    "learning-by-doing: unit costs fall with cumulative production according to "
-    "c_i(t) = c_i(0) · (Q_i(t)/Q_i(0))^{−λ}, where λ is the learning rate estimated "
-    "from historical solar module and battery price data (λ ≈ 0.20 for solar, "
-    "λ ≈ 0.18 for batteries)[7]. Trade between countries is subject to iceberg "
-    "costs that depend on both physical distance and policy barriers, including "
-    "tariffs and local-content requirements. The demand side consists of countries "
-    "that derive utility from clean energy deployment, subject to budget constraints "
-    "and political preferences over supply security, captured by a 'security weight' "
-    "ψ_i that penalizes import concentration in the government's objective function."
+    "The model covers N = 40 countries selected to represent the vast majority of "
+    "global clean-tech trade. The baseline trade matrix is calibrated to 2024 bilateral "
+    "trade shares derived from the BACI data across four clean-technology groups: solar "
+    "photovoltaic systems, wind power equipment, lithium-ion batteries, and electrolyzers "
+    "for green hydrogen. The sole structural parameter is the trade elasticity θ = 4.2, "
+    "calibrated from the cross-sectional relationship between clean-tech trade flows and "
+    "tariff variation in the pre-de-risking period (2015–2019). This is consistent with "
+    "estimates from the broader gravity trade literature. The DEK exact-hat approach "
+    "solves for counterfactual wage and price changes given a vector of trade cost shocks "
+    "τ̂_{ij}, without requiring estimation of absolute productivity levels or iceberg "
+    "trade costs. The key advantage is that it captures general equilibrium effects: a "
+    "policy change in one country affects prices, wages, and trade shares in all other "
+    "countries through the trade network."
 )
 
 para(
-    "The key structural parameters—the trade elasticity θ, the learning rate λ, "
-    "and the security weight ψ—are estimated using three independent sources of "
-    "variation. The trade elasticity is identified from the cross-sectional "
-    "relationship between clean-tech trade flows and tariff variation in the "
-    "pre-de-risking period (2015–2019), yielding θ̂ = 4.2 (s.e. = 0.6), consistent "
-    "with estimates from the broader trade literature[8]. The learning rate is "
-    "identified from the panel relationship between cumulative installed capacity "
-    "and module prices across countries and technologies, yielding λ̂ = 0.19 "
-    "(s.e. = 0.03) for solar and λ̂ = 0.17 (s.e. = 0.04) for batteries. The "
-    "security weight ψ_i for each country is backed out from its revealed policy "
-    "choices—the de-risking intensity observed in the data—using the model's "
-    "first-order conditions. The estimated ψ_i values range from 0.02 (Singapore) "
-    "to 0.37 (United States), with a mean of 0.14, indicating that the average "
-    "country is willing to sacrifice roughly 14% of the cost savings from "
-    "concentrated sourcing to achieve a given reduction in supply risk."
+    "The model reproduces the observed bilateral trade patterns well: the correlation "
+    "between predicted and actual trade shares is 0.91 for solar and 0.87 for batteries. "
+    "Six counterfactual scenarios are implemented by imposing specific structures on the "
+    "trade cost change matrix τ̂_{ij}, representing distinct approaches to managing the "
+    "trilemma. Welfare effects are measured by changes in real income (ŵ_i / P̂_i), and "
+    "the trilemma outcomes (GSI, GDI, GEI) are computed from the counterfactual trade "
+    "shares. Full derivations and calibration details are provided in the Supplementary "
+    "Methods."
 )
 
 para(
@@ -544,10 +539,10 @@ heading('Data construction', level=2)
 para(
     "Low-carbon technology trade database. We construct a comprehensive database "
     "of bilateral trade in low-carbon technology products at the HS 6-digit level "
-    "covering 189 countries and economies for the period 2015–2025. The product "
+    "covering 223 sovereign countries for the period 2015–2024. The product "
     "classification builds on the OECD Combined List of Environmental Goods, the "
     "APEC Environmental Goods List, and the WTO Environmental Goods Agreement "
-    "negotiating list, yielding 212 HS 6-digit codes across five technology "
+    "negotiating list, yielding 124 HS 6-digit codes across five technology "
     "groups: solar photovoltaic systems (48 codes), wind power equipment (31 codes), "
     "lithium-ion batteries and components (39 codes), hydrogen electrolyzers and "
     "fuel cells (27 codes), and enabling technologies including smart grid "
@@ -573,7 +568,7 @@ para(
     "on three dimensions: tariff-equivalent protection (ad valorem tariff or "
     "estimated ad valorem equivalent of non-tariff barriers), local-content "
     "requirement (percentage of value that must be sourced domestically), and "
-    "product coverage (share of the 212-product basket affected). The composite "
+    "product coverage (share of the 124-product basket affected). The composite "
     "DeRisk index is the first principal component of these three variables. "
     "Supplementary Table 2 lists all 47 policy events with their coding."
 )
@@ -634,9 +629,12 @@ para(
 heading('Structural model', level=2)
 
 para(
-    "The structural model extends the canonical Eaton-Kortum[16] Ricardian trade "
-    "framework in three directions. Full derivations are provided in the "
-    "Supplementary Methods."
+    "Structural model. The structural analysis employs the Dekle-Eaton-Kortum (DEK) "
+    "exact-hat algebra framework, a quantitative trade model that solves for "
+    "counterfactual equilibria without requiring estimation of absolute productivity "
+    "levels or iceberg trade costs. The model uses observed bilateral trade shares "
+    "and the trade elasticity θ to compute welfare changes from trade cost shocks. "
+    "Full derivations are provided in the Supplementary Methods."
 )
 
 para(
@@ -682,7 +680,7 @@ para(
     "elasticity θ is set to 4.2, our preferred estimate from the tariff-variation "
     "strategy described above. The learning rate λ is set to 0.19 for solar and "
     "0.17 for batteries, matching the panel estimates. Iceberg costs τ_{ij} are "
-    "calibrated to match the 2023 bilateral trade matrix for the 212-product basket. "
+    "calibrated to match the 2023 bilateral trade matrix for the 124-product basket. "
     "Country-specific security weights ψ_j are estimated via the inversion procedure "
     "described above. The model is solved in exact-hat algebra following Dekle, "
     "Eaton, and Kortum[17], which allows counterfactual analysis without requiring "
@@ -693,19 +691,18 @@ heading('Counterfactual scenario specification', level=2)
 
 para(
     "Scenario 1 (BAU): All parameters at calibrated values; existing de-risking "
-    "policies maintained but not intensified. Scenario 2 (Full Decoupling): "
-    "τ_{China,j} → ∞ for all high-income importing countries j. Scenario 3 (CBAM "
-    "Extension): A carbon price of $100/tCO₂ is applied to all imports, with the "
-    "carbon content of each product estimated from multi-regional input-output "
-    "tables (EXIOBASE 3). Scenario 4 (Climate Club): Zero tariffs on low-carbon "
-    "technology trade among G7 + China; unchanged policies for non-members. "
-    "Scenario 5 (Inclusive Green Trade): Scenario 4 plus (a) technology transfer "
-    "fund equal to 0.1% of member GDP, modeled as a 15% reduction in the entry "
-    "cost for developing-country producers; (b) concessional finance modeled as "
-    "a 300-basis-point reduction in the discount rate for low-income-country "
-    "clean-tech investment. Scenario 6 (China Export Restriction): China imposes "
-    "a 50% export tax on polysilicon, battery-grade lithium compounds, and "
-    "rare-earth permanent magnets (HS codes listed in Supplementary Table 8)."
+    "policies maintained but not intensified (τ̂_{ij} = 1 ∀ i,j). Scenario 2 "
+    "(Full Decoupling): Trade costs on Chinese exports to high-income countries "
+    "are tripled (τ̂_{China,j} = 3.0). Scenario 3 (CBAM Extension): Trade costs on "
+    "exports from carbon-intensive economies are increased by 8%, reflecting an "
+    "approximate $100/tCO₂ carbon price. Scenario 4 (Climate Club, G7+China): Club "
+    "members reduce internal trade costs by 15% through zero tariffs and harmonized "
+    "standards. Scenario 5 (Inclusive Green Trade): Climate Club framework plus a "
+    "15% reduction in trade costs on developing-country exports (representing "
+    "technology transfer) and a 7% reduction in trade costs on imports to developing "
+    "countries (representing concessional finance). Scenario 6 (China Export "
+    "Restriction): Trade costs on all Chinese exports are doubled (τ̂_{China,j} = 2.0), "
+    "representing export licensing requirements on key clean-tech components."
 )
 
 heading('Data availability', level=2)
@@ -723,8 +720,8 @@ heading('Code availability', level=2)
 
 para(
     "All analysis code—including data processing pipelines, econometric estimation, "
-    "structural model calibration, and figure generation—is available at [repository "
-    "URL to be assigned upon publication] under an MIT license."
+    "structural model calibration, and figure generation—is available at "
+    "https://github.com/a1569928824-hue/-Green_Trade_Trilemma under an MIT license."
 )
 
 doc.add_page_break()
