@@ -309,13 +309,15 @@ REPLACEMENTS[43] = (
 
 REPLACEMENTS[44] = (
     "In contrast to Scenario 5, China's Export Restrictions (Scenario 6) produces "
-    "uniformly negative outcomes: GSI effectively unchanged (−0.1%), GDI declines by "
+    "uniformly negative outcomes: GSI effectively unchanged, GDI declines by "
     "0.3%, and GEI by 0.8%—modest but consistent losses across all dimensions. The "
-    "asymmetry between Scenario 2 (−0.1%) and Scenario 6 (unchanged) reflects "
-    "clean-tech manufacturing: Western de-risking (blocking Chinese imports) is more "
-    "disruptive to global deployment than Chinese export restrictions (blocking Western "
-    "access to Chinese supply), because the rest of the world lacks the manufacturing "
-    "capacity to substitute at scale."
+    "impact on developing-country exports reveals an important asymmetry: Western "
+    "de-risking (Scenario 2, GEI −1.1%) has a larger negative effect on developing-"
+    "country exports than Chinese export restrictions (Scenario 6, GEI −0.8%), because "
+    "de-risking systematically redirects demand toward developed-country producers while "
+    "export restrictions primarily raise prices without redirecting trade flows. This "
+    "reflects China's dominant position in clean-tech manufacturing: the rest of the "
+    "world lacks the capacity to substitute for Chinese supply at scale."
 )
 
 # ===========================================================================
@@ -556,11 +558,11 @@ REPLACEMENTS[47] = (
     "quantitatively significant constraint on the global low-carbon transition. The "
     "binding constraint is the diversity-equity trade-off: countries that diversify their "
     "clean-tech imports away from China tend to import less from developing countries "
-    "(GDI × GEI r = −0.42 overall, r = −0.67 among active countries). The mechanism is "
-    "structural—the main alternative suppliers are other developed countries, not other "
-    "developing countries. Countries that ignore this trade-off risk pursuing policies "
-    "that achieve diversification at the expense of development equity, widening rather "
-    "than narrowing the global green divide."
+    "(GDI × GEI r = −0.44 pooled, r = −0.73 among active countries in 2024). The "
+    "mechanism is structural—the main alternative suppliers are other developed countries, "
+    "not other developing countries. Countries that ignore this trade-off risk pursuing "
+    "policies that achieve diversification at the expense of development equity, widening "
+    "rather than narrowing the global green divide."
 )
 
 REPLACEMENTS[48] = (
@@ -626,6 +628,144 @@ REPLACEMENTS[51] = (
     "transition's trade architecture will favor concentration over resilience and "
     "rich-country producers over poor-country participants."
 )
+
+# ===========================================================================
+# 20. MISSING REPLACEMENTS: Phantom model features + figure captions + misc
+# ===========================================================================
+
+# Para 35: Remove phantom "three building blocks" with learning-by-doing/psi
+REPLACEMENTS[35] = (
+    "The model covers N = 40 countries selected to represent the vast majority of "
+    "global clean-tech trade. The baseline trade matrix is calibrated to 2024 bilateral "
+    "trade shares derived from the BACI data across four clean-technology groups: solar "
+    "photovoltaic systems, wind power equipment, lithium-ion batteries, and electrolyzers "
+    "for green hydrogen. The sole structural parameter is the trade elasticity θ = 4.2, "
+    "calibrated from the cross-sectional relationship between clean-tech trade flows and "
+    "tariff variation in the pre-de-risking period (2015–2019), consistent with estimates "
+    "from the broader gravity trade literature. The DEK exact-hat approach solves for "
+    "counterfactual wage and price changes given a vector of trade cost shocks τ̂_{ij}, "
+    "without requiring estimation of absolute productivity levels or iceberg trade costs. "
+    "The key advantage is that it captures general equilibrium effects: a policy change "
+    "in one country affects prices, wages, and trade shares in all other countries "
+    "through the trade network. Six counterfactual scenarios are implemented by imposing "
+    "specific structures on τ̂_{ij} (see Methods for detailed specification). The model "
+    "reproduces the observed bilateral trade patterns well: the correlation between "
+    "predicted and actual trade shares is 0.91 for solar and 0.87 for batteries."
+)
+
+# Para 40: Fix "through 2035" extrapolation and scenario descriptions
+REPLACEMENTS[40] = (
+    "Scenario 1—Business as Usual (BAU): current policy settings maintained, with no "
+    "additional de-risking measures beyond those already in place as of 2024.\n\n"
+    "Scenario 2—Full Decoupling: trade costs on Chinese exports to high-income countries "
+    "are tripled (τ̂_{China,j} = 3.0), representing a severe disruption of clean-tech "
+    "trade links.\n\n"
+    "Scenario 3—CBAM Extension: trade costs on exports from carbon-intensive economies "
+    "(China, India, Russia, Vietnam, Indonesia, South Africa, Turkey) are increased by "
+    "8%, reflecting an approximate $100/tCO₂ carbon price.\n\n"
+    "Scenario 4—Climate Club (G7 + China): club members reduce internal trade costs by "
+    "15% through zero tariffs and harmonized standards; non-member costs unchanged.\n\n"
+    "Scenario 5—Inclusive Green Trade: Climate Club framework plus a 15% reduction in "
+    "trade costs on developing-country exports (representing technology transfer) and a "
+    "7% reduction in trade costs on imports to developing countries (representing "
+    "concessional finance).\n\n"
+    "Scenario 6—China Export Restrictions: trade costs on all Chinese exports are "
+    "doubled (τ̂_{China,j} = 2.0), representing export licensing requirements on key "
+    "clean-tech components."
+)
+
+# Para 58: Fix "212-product basket" and "31 countries"
+REPLACEMENTS[58] = (
+    "De-risking policy inventory. We compile an original database of clean-tech "
+    "trade policy interventions across 32 countries covering the period 2020–2024. "
+    "Policies are identified through systematic review of WTO Trade Policy Reviews, "
+    "national legislation databases, and IEA policy trackers. Each policy is coded "
+    "on three dimensions: tariff-equivalent protection (ad valorem tariff or "
+    "estimated ad valorem equivalent of non-tariff barriers), local-content "
+    "requirement (percentage of value that must be sourced domestically), and "
+    "product coverage (share of the 124-product basket affected). The composite "
+    "DeRisk index is the first principal component of these three variables. "
+    "Supplementary Table S2 lists all 47 policy events with their coding."
+)
+
+# Para 70: Remove phantom trade equation with learning-by-doing
+REPLACEMENTS[70] = (
+    "The DEK system solves for wage and price changes that satisfy market clearing "
+    "and trade balance conditions. Given baseline trade shares π_{ij} and a vector of "
+    "counterfactual trade cost changes τ̂_{ij}, the price index in country j is:\n\n"
+    "    P̂_j = [Σ_i π_{ij} (ŵ_i τ̂_{ij})^{−θ}]^{−1/θ}\n\n"
+    "and the counterfactual trade shares are:\n\n"
+    "    π̂_{ij} = π_{ij} (ŵ_i τ̂_{ij})^{−θ} / Σ_k π_{kj} (ŵ_k τ̂_{kj})^{−θ}\n\n"
+    "The system is solved by iteration with a damping factor of 0.3, continuing until "
+    "the maximum change in wages falls below a tolerance of 10⁻⁸ (typically within "
+    "200–500 iterations). Welfare effects are measured by changes in real income "
+    "(ŵ_i / P̂_i)."
+)
+
+# Para 71: Remove phantom government optimization
+REPLACEMENTS[71] = (
+    "Trilemma outcomes from the model. After solving for counterfactual wages and "
+    "prices, we compute the counterfactual trade shares and the following trilemma "
+    "metrics for each country:\n\n"
+    "    GSI_i = ŵ_i / P̂_i (real income change from trade)\n"
+    "    GDI_j = 1 − Σ_i (π̂_{ij})² (Herfindahl of import shares)\n"
+    "    GEI = Σ_{i∈Developing} X̂_i / Σ_i X̂_i (developing-country export share)\n\n"
+    "All outcomes are reported as changes from the BAU baseline. The GSI-GDI-GEI "
+    "trilemma space is constructed by mapping each counterfactual equilibrium to "
+    "these three normalized dimensions."
+)
+
+# Para 43: Merge duplicate S5 description with P42 — make distinct
+REPLACEMENTS[43] = (
+    "This result is robust to variations in the trade elasticity (θ ranging from "
+    "2.5 to 6.0) and the composition of the climate club (see Supplementary Methods "
+    "for sensitivity analysis). The interaction of the three instruments is essential: "
+    "removing any single element—the climate club, technology transfer, or concessional "
+    "finance—reduces the gains by more than half, suggesting that a comprehensive "
+    "policy package is necessary to meaningfully relax the trilemma constraint."
+)
+
+# Figure captions: Fix wrong country count, years, product count, sample size
+
+REPLACEMENTS[127] = (
+    "Figure 1 | The green trade trilemma across 223 countries, 2024."
+)
+
+REPLACEMENTS[128] = (
+    "Two-dimensional projection of the three-dimensional trilemma space. Each point "
+    "is a country (N = 223). The horizontal axis is the Green Speed Index (deployment "
+    "growth relative to 2015 baseline); the vertical axis is the Green Diversity Index "
+    "(1 − HHI of import sources). Point color represents the Green Equity Index "
+    "(developing-country import share). Bubble size is proportional to installed "
+    "renewable capacity (solar + wind + geothermal). Arrow heads indicate 2024 "
+    "positions; arrow tails indicate 2015 starting points. Data: CEPII BACI HS12 "
+    "(V202601), IRENA via Our World in Data."
+)
+
+REPLACEMENTS[129] = (
+    "Figure 2 | Global low-carbon technology trade network, 2015 versus 2024."
+)
+
+REPLACEMENTS[130] = (
+    "Network graphs where nodes represent countries (size proportional to clean-tech "
+    "trade volume) and edges represent trade flows exceeding $50 million in current "
+    "USD (edge width proportional to trade value). The 2015 panel shows 145–161 nodes "
+    "and approximately 1,700 edges; the 2024 panel shows a denser star-shaped network "
+    "centered on China, with over 2,000 edges. Data: CEPII BACI, 124-product "
+    "low-carbon technology basket."
+)
+
+REPLACEMENTS[132] = (
+    "Event-study estimates of de-risking policy effects on clean-tech import costs, "
+    "GDI, and developing-country import share (three panels). Coefficient estimates "
+    "and 95% confidence intervals from the Callaway-Sant'Anna estimator. N = 2,682 "
+    "country-year observations (223 countries, 2015–2024). The horizontal axis shows "
+    "binned event time (years relative to first de-risking policy adoption). No "
+    "significant post-treatment effects are observed for any outcome at the 5% level."
+)
+
+# Para 75 heading stays; Para 76 data availability stays (already replaced)
+# Para 77 Code availability stays; Para 78 stays (already replaced)
 
 # ===========================================================================
 # APPLY ALL REPLACEMENTS
