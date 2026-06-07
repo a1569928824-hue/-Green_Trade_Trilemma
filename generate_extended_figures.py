@@ -329,33 +329,6 @@ fig.tight_layout()
 save_figures(fig, "ED_Fig6_dek_sensitivity")
 
 # ===================================================================
-# ED Figure 7: Trilemma index temporal trends by income group
-# ===================================================================
-print("\n[ED Fig 7] Trilemma trends by income group...")
-panel["income_group"] = "High-income"
-panel.loc[panel["is_high_income"] == False, "income_group"] = "Developing"
-
-indicators = [("gsi", "GSI"), ("gdi", "GDI"), ("gei", "GEI")]
-fig, axes = plt.subplots(1, 3, figsize=(7.5, 3.0))
-colors_g = {"High-income": "#377EB8", "Developing": "#E41A1C"}
-
-for ax, (col, label) in zip(axes, indicators):
-    for group in ["High-income", "Developing"]:
-        sub = panel[panel["income_group"] == group].groupby("year")[col].mean()
-        ax.plot(sub.index, sub.values, color=colors_g[group],
-                linewidth=1.5, marker="o", markersize=2, label=group)
-    ax.axvline(2020, color="gray", linestyle="--", linewidth=0.8, alpha=0.5)
-    ax.set_xlabel("Year")
-    ax.set_ylabel(label)
-    ax.set_title(label)
-    ax.legend(fontsize=6)
-
-fig.suptitle("Extended Data Fig. 7: Trilemma index trends by income group, 2015–2024",
-             fontweight="bold", fontsize=8, y=1.01)
-fig.tight_layout()
-save_figures(fig, "ED_Fig7_income_group_trends")
-
-# ===================================================================
 # ED Figure 8: HS6 product import value ranking
 # ===================================================================
 print("\n[ED Fig 8] Top products by trade value...")

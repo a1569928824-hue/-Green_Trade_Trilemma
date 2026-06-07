@@ -23,33 +23,22 @@ REPLACEMENTS = {}
 # 1. ABSTRACT (para 13) — complete rewrite
 # ===========================================================================
 REPLACEMENTS[13] = (
-    "The global low-carbon transition depends on a single country. China now accounts for "
-    "approximately 85% of global solar cell exports, more than 60% of wind turbine exports, "
-    "and over 75% of lithium-ion battery exports. This concentration creates a tension "
-    "that no existing framework adequately captures: countries cannot simultaneously "
-    "maximize decarbonization speed, supply chain security, and development equity. Here we "
-    "formalize this tension as a 'Green Trade Trilemma' and test it empirically using "
-    "a new database of bilateral trade in 124 low-carbon technology products across "
-    "223 countries from 2015 to 2024, constructed from CEPII BACI (HS6 level) and "
-    "supplemented with official data from IRENA, the World Bank, and national policy "
-    "documents. We construct three country-level indices—Green Speed Index (GSI), "
-    "Green Diversity Index (GDI), and Green Equity Index (GEI)—and find that the "
-    "trilemma manifests primarily as a trade-off between supply chain diversification "
-    "and development equity (GDI × GEI r = −0.42), rather than between speed and "
-    "diversity as previously assumed. The main alternative suppliers to China are "
-    "other developed countries (United States, European Union, Japan, Korea), meaning "
-    "de-risking benefits rich-country producers at the expense of poor-country "
-    "exporters. Using a staggered difference-in-differences design and a product-level "
-    "Bartik (shift-share) instrument, we find that de-risking policies have limited "
-    "detectable effects on import costs at the country level, with product-level "
-    "analysis suggesting potential cost decreases as importers switch to alternative "
-    "suppliers. A structural trade model with 40 countries (Dekle-Eaton-Kortum "
-    "exact-hat algebra, θ = 4.2) reveals that only an Inclusive Green Trade regime—"
-    "combining a climate club with technology transfer and concessional finance—"
-    "substantially improves all three dimensions simultaneously (+15.8% GEI, +13.7 "
-    "percentage points GSI). Without such a regime, the green transition risks becoming "
-    "a 'green divide' that excludes the world's poorest countries from the economic "
-    "benefits of decarbonization."
+    "The low-carbon transition depends on a single country. China supplies over 80% of "
+    "globally traded solar modules, 60% of wind turbines, and 75% of lithium-ion "
+    "batteries—a concentration creating a tension no existing framework captures: "
+    "countries cannot simultaneously maximize decarbonization speed, supply chain "
+    "security, and development equity. We formalize this 'Green Trade Trilemma' and "
+    "test it using a new database of 124 low-carbon technology products across 223 "
+    "countries (2015–2024). Three indices—Green Speed Index (GSI), Green Diversity "
+    "Index (GDI), and Green Equity Index (GEI)—reveal the binding constraint is the "
+    "diversification–equity trade-off (r = −0.42), not speed versus diversity. "
+    "Difference-in-differences and Bartik estimates show de-risking policies have "
+    "limited import-cost effects; product-level evidence suggests cost decreases as "
+    "importers switch suppliers. A structural trade model shows only an Inclusive "
+    "Green Trade regime—combining a climate club with technology transfer and "
+    "concessional finance—improves all three dimensions simultaneously (+15.8% GEI, "
+    "+13.7 pp GSI). Without such a regime, the green transition risks becoming a "
+    "green divide."
 )
 
 # ===========================================================================
@@ -154,12 +143,13 @@ REPLACEMENTS[26] = (
     "To estimate how de-risking policies affect the three trilemma dimensions, we "
     "exploit the staggered introduction of clean-tech trade restrictions across countries "
     "between 2020 and 2024. Our policy inventory identifies 47 distinct de-risking events "
-    "across 32 countries, including the U.S. Inflation Reduction Act ($369 billion in "
-    "clean-energy provisions with domestic-content requirements), the EU Critical Raw "
-    "Materials Act and provisional anti-subsidy tariffs on Chinese electric vehicles "
-    "(up to 37.6%), India's Approved List of Models and Manufacturers (ALMM) with "
-    "domestic-content requirements, Turkey's additional tariffs on Chinese solar modules "
-    "($25/m²), and Brazil's local-content rules for wind turbine towers. We code each "
+    "across 32 countries. Notable examples include the U.S. Inflation Reduction Act ($369 "
+    "billion in clean-energy provisions with domestic-content requirements), the EU "
+    "Critical Raw Materials Act and provisional anti-subsidy tariffs on Chinese electric "
+    "vehicles (up to 37.6%), India's Approved List of Models and Manufacturers (ALMM) "
+    "with domestic-content requirements, Turkey's additional tariffs on Chinese solar "
+    "modules ($25/m²), and Brazil's local-content rules for wind turbine towers. We code "
+    "each "
     "policy by its de-risking intensity—a composite of tariff rate, local-content "
     "percentage, and product coverage—and aggregate to a country-year index. All policy "
     "events are documented with official government sources (Supplementary Table S2)."
@@ -244,29 +234,12 @@ REPLACEMENTS[34] = (
     "bilateral trade shares in low-carbon technology products."
 )
 
-REPLACEMENTS[36] = (
-    "The key structural parameter is the trade elasticity θ = 4.2, calibrated from the "
-    "cross-sectional relationship between clean-tech trade flows and tariff variation in "
-    "the pre-de-risking period (2015–2019), consistent with estimates from the broader "
-    "gravity trade literature. We calibrate the model to match the 2024 trade matrix for "
-    "40 countries and four clean-technology groups: solar photovoltaic systems, wind power "
-    "equipment, lithium-ion batteries, and electrolyzers for green hydrogen. The model "
-    "reproduces the observed bilateral trade shares well: the correlation between predicted "
-    "and actual trade shares is 0.91 for solar and 0.87 for batteries. Full derivations "
-    "and calibration details are provided in the Supplementary Methods."
-)
+REPLACEMENTS[36] = ""
 
 REPLACEMENTS[37] = (
-    "The DEK exact-hat approach solves for counterfactual wage and price changes given a "
-    "vector of trade cost shocks τ̂_{ij}, without requiring estimation of absolute "
-    "productivity levels or iceberg trade costs. Given baseline trade shares π_{ij}, "
-    "the system solves for wage changes ŵ_i and price index changes P̂_j that satisfy "
-    "market clearing and trade balance conditions. The key advantage of this approach is "
-    "that it captures general equilibrium effects—a policy change in one country affects "
-    "prices, wages, and trade shares in all other countries through the trade network. "
-    "Welfare effects are measured by changes in real income (ŵ_i / P̂_i). Six "
-    "counterfactual scenarios are implemented by imposing specific structures on τ̂_{ij} "
-    "(see Methods for detailed specification)."
+    "Given baseline trade shares π_{ij}, the DEK system solves for wage changes ŵ_i and "
+    "price index changes P̂_j that satisfy market clearing and trade balance conditions. "
+    "Welfare effects are measured by changes in real income (ŵ_i / P̂_i)."
 )
 
 # ===========================================================================
@@ -651,7 +624,8 @@ REPLACEMENTS[35] = (
     "through the trade network. Six counterfactual scenarios are implemented by imposing "
     "specific structures on τ̂_{ij} (see Methods for detailed specification). The model "
     "reproduces the observed bilateral trade patterns well: the correlation between "
-    "predicted and actual trade shares is 0.91 for solar and 0.87 for batteries."
+    "predicted and actual trade shares is 0.91 for solar and 0.87 for batteries. Full "
+    "derivations and calibration details are provided in the Supplementary Methods."
 )
 
 # Para 40: Fix "through 2035" extrapolation and scenario descriptions
