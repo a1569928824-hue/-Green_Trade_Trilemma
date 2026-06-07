@@ -33,8 +33,9 @@ python structural_model.py
 # 3. Generate figures and tables
 python fig1_trilemma_framework_v13.py
 python fig2_trade_network.py
-python fig3_event_study.py
-python fig4_welfare_heatmap.py
+python fig3_cs_did_event_study.py
+python fig4_counterfactual_dotwhisker.py
+python fig5_temporal_trends.py
 python generate_extended_figures.py
 python generate_supplementary.py
 python generate_supp_methods.py

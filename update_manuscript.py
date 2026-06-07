@@ -223,7 +223,7 @@ REPLACEMENTS[32] = (
     "and alternative fixed-effects structures. The Callaway-Sant'Anna doubly-robust "
     "estimator, which is robust to heterogeneous treatment effects in staggered designs, "
     "confirms that all three outcome effects are not statistically significant at "
-    "conventional levels (Supplementary Table S9; Extended Data Figure 10). Heterogeneity "
+    "conventional levels (Supplementary Table S9; Figure 3). Heterogeneity "
     "analysis by product group (solar PV, wind, battery, smart grid) reveals no "
     "significant differences in the direction or magnitude of effects across technology "
     "categories. The key empirical finding—that the binding trilemma constraint is the "
@@ -769,6 +769,54 @@ REPLACEMENTS[132] = (
 # Para 77 Code availability stays; Para 78 stays (already replaced)
 
 # ===========================================================================
+# Figure 3-5 captions
+# ===========================================================================
+REPLACEMENTS[131] = (
+    "Figure 3 | Causal effects of de-risking policies on clean-tech outcomes: "
+    "Callaway-Sant'Anna doubly-robust estimates."
+)
+
+REPLACEMENTS[133] = (
+    "Figure 4 | Counterfactual policy outcomes: structural model results."
+)
+
+REPLACEMENTS[134] = (
+    "Dot-whisker plot showing percentage change in three outcome dimensions "
+    "relative to the Business-as-Usual (BAU) scenario. The decarbonization speed "
+    "panel (left) reports the change in the Green Speed Index proxy (real income "
+    "change from trade); the supply chain diversity panel (centre) reports the "
+    "change in GDI (1 minus Herfindahl of import shares); the developing-country "
+    "export share panel (right) reports the change in GEI. The five scenarios "
+    "exclude BAU. The Inclusive Green Trade scenario (Scenario 5) is the only "
+    "configuration that improves all three trilemma dimensions simultaneously "
+    "(+13.7 pp GSI, +15.8% GEI, -1.2% GDI). Horizontal bars represent the "
+    "point estimates; dashed vertical line at zero marks the BAU baseline. "
+    "DEK exact-hat algebra, theta = 4.2, N = 40 countries."
+)
+
+# ===========================================================================
+# INSERT NEW PARAGRAPHS: Figure 5 caption
+# ===========================================================================
+FIG5_CAPTION = (
+    "Figure 5 | Temporal evolution of the green trade trilemma by income group, "
+    "2015–2024."
+)
+FIG5_DESCRIPTION = (
+    "Three-panel time-series plot showing the mean values of the Green Speed Index "
+    "(GSI, left), Green Diversity Index (GDI, centre), and Green Equity Index (GEI, "
+    "right) for high-income (solid blue line) and developing (dashed orange line) "
+    "countries. The vertical dotted line at 2020 marks the onset of major de-risking "
+    "policies. The temporal trends reveal three patterns: (1) a widening divergence "
+    "in decarbonization speed between high-income and developing countries, with "
+    "high-income countries accelerating deployment faster after 2020; (2) a gradual "
+    "decline in import source diversity for both income groups as clean-tech supply "
+    "chains concentrated around China; and (3) a reversal in developing-country "
+    "export share after 2022, as de-risking policies redirected trade toward developed-"
+    "country suppliers at the expense of developing-country exporters. N = 223 "
+    "countries; data from CEPII BACI HS12 (V202601) and IRENA via Our World in Data."
+)
+
+# ===========================================================================
 # APPLY ALL REPLACEMENTS
 # ===========================================================================
 print(f"Applying {len(REPLACEMENTS)} paragraph replacements...")
@@ -790,7 +838,44 @@ for idx, new_text in REPLACEMENTS.items():
     else:
         print(f"  [{idx}] WARNING: paragraph index out of range (max {len(doc.paragraphs)-1})")
 
-# Save
+# ===========================================================================
+# INSERT FIGURE 5 PARAGRAPHS
+# We need to insert two new paragraphs (Fig5 caption + description) after P134.
+# python-docx doesn't support insert directly, so we use element-level manipulation.
+# ===========================================================================
+print("\nInserting Figure 5 caption and description...")
+
+from docx.oxml.ns import qn
+
+def make_paragraph(doc, text, template_para):
+    """Create a new paragraph element matching the style of template_para."""
+    p = copy.deepcopy(template_para._element)
+    # Clear existing text from all runs
+    for r in p.findall(qn('w:r')):
+        for t in r.findall(qn('w:t')):
+            t.text = ''
+        for t in r.findall(qn('w:instrText')):
+            t.text = ''
+    # Set text in first run
+    first_r = p.find(qn('w:r'))
+    if first_r is not None:
+        first_t = first_r.find(qn('w:t'))
+        if first_t is not None:
+            first_t.text = text
+            first_t.set(qn('xml:space'), 'preserve')
+    return p
+
+# Insert blank, Fig5 caption, and Fig5 description after paragraph 134
+ref_element = doc.paragraphs[134]._element
+parent = ref_element.getparent()
+ref_index = list(parent).index(ref_element)
+
+for i, text in enumerate(["", FIG5_CAPTION, FIG5_DESCRIPTION]):
+    new_p = make_paragraph(doc, text, doc.paragraphs[134])
+    parent.insert(ref_index + 1 + i, new_p)
+
+print(f"  Inserted 3 paragraphs after P134 (blank + caption + description)")
+
 doc.save(OUT_PATH)
 print(f"\nManuscript saved to: {OUT_PATH}")
 print("Done.")
